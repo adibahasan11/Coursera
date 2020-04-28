@@ -10,7 +10,7 @@ body {
 h1 {
 	text-align: center;
 }
-#box {
+.boxes {
 	border: 2px solid black;
 	font-family: "Comic Sans MS", cursive, sans-serif;
 	background: rgb(240, 89,100);
@@ -18,16 +18,26 @@ h1 {
 	width: 31%;
 	margin-right: 20px;
 }
-#Chicken {
+.box {
 	border-bottom: 2px solid black;
 	float: right;
 	border-left: 2px solid black;
 	text-align: center;
-	background: pink;
+	/*background: pink;*/
 	width: 120px;
 	font-weight: 900;
 	font-family: "Comic Sans MS", cursive, sans-serif;
 }
 p {
 	padding: 10px;
+}
+#Chicken {
+	background: pink;
+}
+#Beef {
+	background: purple;
+	color: white;
+}
+#Sushi {
+	background: rgb(500, 250, 300);
 }
