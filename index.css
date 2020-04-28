@@ -1,0 +1,33 @@
+body {
+	margin: 63px;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	padding: 0;
+	background: white;
+}
+* {
+	box-sizing: border-box;
+}
+h1 {
+	text-align: center;
+}
+#box {
+	border: 2px solid black;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	background: rgb(240, 89,100);
+	float: left;
+	width: 31%;
+	margin-right: 20px;
+}
+#Chicken {
+	border-bottom: 2px solid black;
+	float: right;
+	border-left: 2px solid black;
+	text-align: center;
+	background: pink;
+	width: 120px;
+	font-weight: 900;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+}
+p {
+	padding: 10px;
+}
